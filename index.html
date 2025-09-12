@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Smart Pot IoT Project</title>
+
+    <!-- Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- AOS Animation on Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+
+<body>
+
+    <!-- Header / Hero Section -->
+    <header class="hero animate__animated animate__fadeIn">
+        <h1>IoT-Enabled Smart Pot</h1>
+        <p>Automatic Irrigation & Moisture Monitoring for Urban Plant Care</p>
+        <a href="#how-it-works" class="btn">Learn How It Works</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" data-aos="fade-up">
+        <h2>About the Project</h2>
+        <p>
+            Many urban residents struggle to care for indoor or balcony plants due to busy schedules.
+            The Smart Pot solves this by automating watering and providing remote monitoring via an IoT dashboard.
+        </p>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works">
+        <h2 data-aos="fade-up">How It Works</h2>
+        <div class="steps">
+            <div class="step" data-aos="fade-right">
+                <h3>🌱 Soil Moisture Sensor</h3>
+                <p>Measures real-time moisture in the soil.</p>
+            </div>
+            <div class="step" data-aos="fade-left">
+                <h3>⚡ ESP32 Microcontroller</h3>
+                <p>Processes sensor data and controls the pump.</p>
+            </div>
+            <div class="step" data-aos="fade-right">
+                <h3>💧 Water Pump</h3>
+                <p>Automatically waters plants when needed.</p>
+            </div>
+            <div class="step" data-aos="fade-left">
+                <h3>📱 IoT Dashboard</h3>
+                <p>Users monitor and control remotely in real time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" data-aos="fade-up">
+        <h2>Key Features</h2>
+        <div class="feature-cards">
+            <div class="card animate__animated animate__bounceIn">
+                <h3>Real-Time Monitoring</h3>
+                <p>Track soil moisture levels continuously.</p>
+            </div>
+            <div class="card animate__animated animate__bounceIn">
+                <h3>Automatic Water Pump</h3>
+                <p>Self-watering system prevents under/overwatering.</p>
+            </div>
+            <div class="card animate__animated animate__bounceIn">
+                <h3>IoT Dashboard</h3>
+                <p>Monitor and control from anywhere using a simple dashboard.</p>
+            </div>
+            <div class="card animate__animated animate__bounceIn">
+                <h3>Manual Control</h3>
+                <p>Toggle pump manually through the dashboard interface.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Applications Section -->
+    <section id="applications" data-aos="fade-up">
+        <h2>Applications</h2>
+        <div class="applications-cards">
+            <div class="app-card animate__animated animate__zoomIn">
+                <h3>Office Desk Plants</h3>
+            </div>
+            <div class="app-card animate__animated animate__zoomIn">
+                <h3>Indoor Decorative Plants</h3>
+            </div>
+            <div class="app-card animate__animated animate__zoomIn">
+                <h3>Balcony Gardening</h3>
+            </div>
+            <div class="app-card animate__animated animate__zoomIn">
+                <h3>Small Greenhouse Pots</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Preview Section -->
+    <section id="dashboard" data-aos="fade-up">
+        <h2>Dashboard Preview</h2>
+        <img src="./assets/images/dashboard-mockup.png" alt="Dashboard Mockup"/>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" data-aos="fade-up">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer data-aos="fade-up">
+        <p>&copy; 2025 Smart Pot Project. All rights reserved.</p>
+    </footer>
+
+    <!-- JS Libraries -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
